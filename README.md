@@ -7,8 +7,8 @@
 > [!TIP]
 > Use a default saved filter to open images in wall view by default.
 
-> [!TIP]
-> Not all themes include the "Images" tab on their mobile UI. The default one does.
+## Installation
+Stash provides an official [guide](https://docs.stashapp.cc/in-app-manual/plugins/?h=plugin#adding-plugins-manually) to install plugins manually.
 
 ## Credits
 - [peresabcod](https://github.com/peresabcod) for the [Hide the lightbox header and footer](https://docs.stashapp.cc/themes/custom-css-snippets/#hide-the-lightbox-header-and-footer) CSS snippet
