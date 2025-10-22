@@ -1,0 +1,12 @@
+name: Better Lightbox
+description: Enhances the image lightbox, especially for mobile, one-handed use. 
+version: 0.1.0
+url: https://github.com/callmenoodles/stash-better-lightbox
+
+ui:
+  requires:
+    - CommunityScriptsUILibrary
+  css:
+    - betterLightbox.css
+  javascript:
+    - betterLightbox.js

@@ -1,0 +1,51 @@
+/* 
+ * "Hide the light box and footer" by peresabcod:
+ * https://docs.stashapp.cc/themes/custom-css-snippets/#css-code_16
+*/
+
+.Lightbox-header,
+.Lightbox-footer {
+  z-index:9999;
+  position:absolute;
+  width:100%;
+  opacity:0;
+  background-color:#0008;
+  transition: opacity 0.5s ease;
+}
+
+.Lightbox-footer {
+  bottom:0;
+}
+
+.Lightbox-navbutton {
+  transition: opacity 0.5s ease;
+}
+
+.Lightbox-navbutton:hover,
+.Lightbox-header:hover,
+.Lightbox-footer:hover {
+  opacity:1;
+}
+
+
+/* Better Lightbox */
+
+.Lightbox-navbutton:nth-child(1) {
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+  height: max-content;
+  opacity: 1;
+}
+
+.Lightbox-navbutton:nth-child(3) {
+  position: absolute;
+  left: 0;
+  bottom: 200px;
+  height: max-content;
+  opacity: 1;
+}
+
+.modal-dialog {
+  max-width: 80vw;
+}
